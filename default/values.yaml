@@ -105,3 +105,6 @@ tolerations: []
 
 # -- Affinity settings for pod assignment
 affinity: {}
+
+# -- additional environment variables to be added to the pods
+extraEnv: []

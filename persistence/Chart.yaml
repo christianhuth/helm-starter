@@ -1,0 +1,13 @@
+apiVersion: v2
+name: <CHARTNAME>
+description: <DESCRIPTION>
+type: application
+version: 1.0.0
+appVersion: "<APP_VERSION>"
+home: https://github.com/christianknell/helm-charts
+icon: <ICON>
+maintainers:
+  - name: christianknell
+    email: christian@knell.it
+sources:
+  - <SOURCE>

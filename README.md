@@ -18,3 +18,9 @@ For example to use the default starter template, run:
 ```bash
 helm create <CHART_NAME> --starter helm-starter/default
 ```
+
+## Update with [helm-starter](https://github.com/salesforce/helm-starter)
+
+```bash
+helm starter update helm-starter
+```

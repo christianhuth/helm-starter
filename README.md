@@ -24,7 +24,7 @@ helm create <CHART_NAME> --starter helm-starter/default
 
 After running the above command to create a chart from a starter template you still have to apply some changes to the created files.
 
-1. Chart.yaml:
+1. `Chart.yaml`:
    1. change appVersion
    2. change description
    3. change version
@@ -32,10 +32,10 @@ After running the above command to create a chart from a starter template you st
    5. add icon
    6. add maintainers
    7. add sources
-2. values.yaml
+2. `values.yaml`:
    1. change image.repository
    2. change image.tag
-3. README.md.gotmpl
+3. `README.md.gotmpl`:
    1. replace <CHARTNAME> with the real name of the chart
    2. add an <INTRODUCTION>
    3. replace <APPLICATION_NAME> and <APPLICATION_LINK> with the real values

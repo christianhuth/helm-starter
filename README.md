@@ -22,7 +22,7 @@ helm create <CHART_NAME> --starter helm-starter/default
 
 ## Needed changes after creation
 
-After running the above command to create a chart from a starter template you still have to apply some changes to the created files.
+After running the above command you still have to apply some changes to the created files.
 
 1. `Chart.yaml`:
    1. change `appVersion`

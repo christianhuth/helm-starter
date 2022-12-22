@@ -11,5 +11,10 @@ helm starter fetch https://github.com/christianknell/helm-starter.git
 To use a starter, run:
 
 ```bash
-helm create NAME --starter helm-starter/<STARTER_NAME>
+helm create <CHART_NAME> --starter helm-starter/<STARTER_NAME>
+```
+
+For example to use the default starter template, run:
+```bash
+helm create <CHART_NAME> --starter helm-starter/default
 ```

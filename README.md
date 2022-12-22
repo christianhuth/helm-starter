@@ -1,6 +1,6 @@
 # Helm Chart Starter
 
-This repository contains starter templates for [Helm](https://helm.sh).
+This repository contains starter templates for [Helm](https://helm.sh). Check out [the documentation](https://helm.sh/docs/topics/charts/#chart-starter-packs) to learn what starter templates are.
 
 ## Usage with [helm-starter](https://github.com/salesforce/helm-starter)
 

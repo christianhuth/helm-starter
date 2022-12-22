@@ -1,1 +1,3 @@
-# helm-starter
+# Helm Chart Starter
+
+# Usage

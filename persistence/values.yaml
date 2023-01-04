@@ -110,12 +110,12 @@ affinity: {}
 extraEnv: []
 
 persistence:
-  # use a PVC to persist data
+  # -- use a PVC to persist data
   enabled: false
   # -- the desired access modes the volume should have.
   accessModes:
     - ReadWriteOnce
-    # -- Annotations to be added to the PersistentVolumeClaim
+  # -- Annotations to be added to the PersistentVolumeClaim
   annotations: {}
   # -- provide an existing PersistentVolumeClaim
   existingClaim: ""

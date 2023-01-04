@@ -18,7 +18,7 @@ spec:
   resources:
   {{- toYaml . | nindent 4 }}
   {{- end }}
-  {{- if .Values.persistence.storageClass }}
-  storageClassName: {{ .Values.persistence.storageClass | quote }}
+  {{- if .Values.persistence.storageClassName }}
+  storageClassName: {{ .Values.persistence.storageClassName | quote }}
   {{- end }}
 {{- end }}

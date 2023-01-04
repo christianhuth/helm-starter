@@ -15,7 +15,7 @@ image:
 # -- If defined, uses a Secret to pull an image from a private Docker registry or repository.
 imagePullSecrets: []
 
-# -- Annotations to be added to exporter pods
+# -- Annotations to be added to the pods
 podAnnotations: {}
 
 # -- pod-level security context

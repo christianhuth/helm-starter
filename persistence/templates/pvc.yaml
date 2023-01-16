@@ -6,7 +6,7 @@ metadata:
   annotations:
     {{- toYaml .Values.persistence.annotations | nindent 4 }}
   {{- end }}
-  name: {{ include "<CHARTNAME>.fullname" . }}
+  name: {{ include "<CHARTNAME>.pvcName" . }}
   labels:
     {{- include "<CHARTNAME>.labels" . | nindent 4 }}
 spec:

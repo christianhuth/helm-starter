@@ -5,6 +5,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 image:
+  # -- image registry
+  registry: <IMAGE_REGISTRY>
   # -- image repository
   repository: <IMAGE_REPOSITORY>
   # -- image pull policy

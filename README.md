@@ -33,8 +33,9 @@ After running the above command you still have to apply some changes to the crea
    6. add `maintainers`
    7. add `sources`
 2. `values.yaml`:
-   1. change `image.repository`
-   2. change `image.tag`
+   1. change `image.registry`
+   2. change `image.repository`
+   3. change `image.tag`
 3. `README.md.gotmpl`:
    1. replace the helm registry host `christianknell https://christianknell.github.io/helm-charts`
    2. replace `<CHARTNAME>` with the real name of the chart
